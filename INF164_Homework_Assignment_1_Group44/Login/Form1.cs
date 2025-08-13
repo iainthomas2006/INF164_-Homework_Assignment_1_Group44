@@ -15,6 +15,7 @@ namespace INF164_Homework_Assignment_1_Group44
         public frmLogin()
         {
             InitializeComponent();
+            string studentnumber;
         }
 
         private void txtCreateEmail_TextChanged(object sender, EventArgs e)
