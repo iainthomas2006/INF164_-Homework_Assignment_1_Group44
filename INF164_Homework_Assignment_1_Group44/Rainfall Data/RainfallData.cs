@@ -16,5 +16,12 @@ namespace INF164_Homework_Assignment_1_Group44
         {
             InitializeComponent();
         }
+
+        private void htsmiMainControl_Click(object sender, EventArgs e)
+        {
+            frmMain_Control_Hub main_Control_Hub = new frmMain_Control_Hub();
+            this.Close(); 
+            main_Control_Hub.Show();
+        }
     }
 }

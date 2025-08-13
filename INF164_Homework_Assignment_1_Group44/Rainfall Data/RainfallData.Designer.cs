@@ -40,6 +40,7 @@
             this.grpSummary = new System.Windows.Forms.GroupBox();
             this.rtxtSummary = new System.Windows.Forms.RichTextBox();
             this.btnSummary = new System.Windows.Forms.Button();
+            this.tsmiMainControl = new System.Windows.Forms.ToolStripMenuItem();
             this.mnsRainfall.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRainfall)).BeginInit();
             this.grpSummary.SuspendLayout();
@@ -59,6 +60,8 @@
             // 
             // moduleToolStripMenuItem
             // 
+            this.moduleToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiMainControl});
             this.moduleToolStripMenuItem.Name = "moduleToolStripMenuItem";
             this.moduleToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.moduleToolStripMenuItem.Text = "Module";
@@ -153,6 +156,13 @@
             this.btnSummary.Text = "Generate Summary";
             this.btnSummary.UseVisualStyleBackColor = true;
             // 
+            // tsmiMainControl
+            // 
+            this.tsmiMainControl.Name = "tsmiMainControl";
+            this.tsmiMainControl.Size = new System.Drawing.Size(224, 26);
+            this.tsmiMainControl.Text = "Main Control Hub";
+            this.tsmiMainControl.Click += new System.EventHandler(this.htsmiMainControl_Click);
+            // 
             // frmRainfallData
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -192,5 +202,6 @@
         private System.Windows.Forms.GroupBox grpSummary;
         private System.Windows.Forms.Button btnSummary;
         private System.Windows.Forms.RichTextBox rtxtSummary;
+        private System.Windows.Forms.ToolStripMenuItem tsmiMainControl;
     }
 }

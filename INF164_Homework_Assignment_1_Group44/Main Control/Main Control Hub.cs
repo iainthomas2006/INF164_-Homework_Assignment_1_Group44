@@ -16,5 +16,19 @@ namespace INF164_Homework_Assignment_1_Group44
         {
             InitializeComponent();
         }
+
+        private void tsmiGrowthEngine_Click(object sender, EventArgs e)
+        {
+            frmGrowthEnginePro growthEnginePro = new frmGrowthEnginePro();
+            this.Hide();
+            growthEnginePro.Show();
+        }
+
+        private void tsmiRainfall_Click(object sender, EventArgs e)
+        {
+            frmRainfallData rainfallData = new frmRainfallData();
+            this.Hide();
+            rainfallData.Show();    
+        }
     }
 }
