@@ -21,5 +21,10 @@ namespace INF164_Homework_Assignment_1_Group44
         {
 
         }
+
+        private void txtEmailLogin_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

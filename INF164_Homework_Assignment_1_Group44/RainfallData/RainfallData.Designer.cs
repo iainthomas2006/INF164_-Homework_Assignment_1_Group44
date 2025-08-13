@@ -96,6 +96,7 @@
             this.btnAnalyze.TabIndex = 12;
             this.btnAnalyze.Text = "Analyze Anomalies";
             this.btnAnalyze.UseVisualStyleBackColor = true;
+            this.btnAnalyze.Click += new System.EventHandler(this.btnAnalyze_Click);
             // 
             // dgvRainfall
             // 

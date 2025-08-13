@@ -16,5 +16,10 @@ namespace INF164_Homework_Assignment_1_Group44
         {
             InitializeComponent();
         }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

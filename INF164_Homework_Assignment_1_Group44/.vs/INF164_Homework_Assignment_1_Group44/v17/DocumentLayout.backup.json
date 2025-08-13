@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\iaint\\OneDrive\\Documents\\UniNotes\\Semester 2\\INF164\\Group Project\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|c:\\users\\iaint\\onedrive\\documents\\uninotes\\semester 2\\inf164\\group project\\inf164_-homework_assignment_1_group44\\inf164_homework_assignment_1_group44\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|c:\\users\\iaint\\onedrive\\documents\\uninotes\\semester 2\\inf164\\group project\\inf164_-homework_assignment_1_group44\\inf164_homework_assignment_1_group44\\main control hub\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:main control hub\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\Users\\iaint\\OneDrive\\Documents\\UniNotes\\Semester 2\\INF164\\Group Project\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\main control hub\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:main control hub\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,18 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\iaint\\OneDrive\\Documents\\UniNotes\\Semester 2\\INF164\\Group Project\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\iaint\\OneDrive\\Documents\\UniNotes\\Semester 2\\INF164\\Group Project\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Main Control Hub.cs",
+              "DocumentMoniker": "C:\\Users\\iaint\\OneDrive\\Documents\\UniNotes\\Semester 2\\INF164\\Group Project\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control Hub\\Main Control Hub.cs",
+              "RelativeDocumentMoniker": "Main Control Hub\\Main Control Hub.cs",
+              "ToolTip": "C:\\Users\\iaint\\OneDrive\\Documents\\UniNotes\\Semester 2\\INF164\\Group Project\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control Hub\\Main Control Hub.cs",
+              "RelativeToolTip": "Main Control Hub\\Main Control Hub.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAASwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T07:17:57.002Z",
+              "WhenOpened": "2025-08-13T07:39:43.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main Control Hub.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\iaint\\OneDrive\\Documents\\UniNotes\\Semester 2\\INF164\\Group Project\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control Hub\\Main Control Hub.cs",
+              "RelativeDocumentMoniker": "Main Control Hub\\Main Control Hub.cs",
+              "ToolTip": "C:\\Users\\iaint\\OneDrive\\Documents\\UniNotes\\Semester 2\\INF164\\Group Project\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control Hub\\Main Control Hub.cs [Design]",
+              "RelativeToolTip": "Main Control Hub\\Main Control Hub.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T07:39:39.194Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -254,6 +254,7 @@
             this.txtEmailLogin.Name = "txtEmailLogin";
             this.txtEmailLogin.Size = new System.Drawing.Size(241, 24);
             this.txtEmailLogin.TabIndex = 2;
+            this.txtEmailLogin.TextChanged += new System.EventHandler(this.txtEmailLogin_TextChanged);
             // 
             // lblStudentLogin
             // 

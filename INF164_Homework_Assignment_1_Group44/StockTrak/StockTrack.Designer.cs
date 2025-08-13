@@ -34,36 +34,36 @@
             this.dgvStock = new System.Windows.Forms.DataGridView();
             this.lblStock = new System.Windows.Forms.Label();
             this.grbStock = new System.Windows.Forms.GroupBox();
-            this.lblName = new System.Windows.Forms.Label();
-            this.txtStockName = new System.Windows.Forms.TextBox();
-            this.lbl2019 = new System.Windows.Forms.Label();
-            this.lbl2020 = new System.Windows.Forms.Label();
-            this.lbl2021 = new System.Windows.Forms.Label();
-            this.lbl2022 = new System.Windows.Forms.Label();
-            this.lbl2023 = new System.Windows.Forms.Label();
-            this.lbl2024 = new System.Windows.Forms.Label();
-            this.lbl2025 = new System.Windows.Forms.Label();
-            this.nud2019Stock = new System.Windows.Forms.NumericUpDown();
-            this.nud2020Stock = new System.Windows.Forms.NumericUpDown();
-            this.nud2021Stock = new System.Windows.Forms.NumericUpDown();
-            this.nud2022Stock = new System.Windows.Forms.NumericUpDown();
-            this.nud2023Stock = new System.Windows.Forms.NumericUpDown();
-            this.nud2024Stock = new System.Windows.Forms.NumericUpDown();
-            this.nud2025Stock = new System.Windows.Forms.NumericUpDown();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.nud2025Stock = new System.Windows.Forms.NumericUpDown();
+            this.nud2024Stock = new System.Windows.Forms.NumericUpDown();
+            this.nud2023Stock = new System.Windows.Forms.NumericUpDown();
+            this.nud2022Stock = new System.Windows.Forms.NumericUpDown();
+            this.nud2021Stock = new System.Windows.Forms.NumericUpDown();
+            this.nud2020Stock = new System.Windows.Forms.NumericUpDown();
+            this.nud2019Stock = new System.Windows.Forms.NumericUpDown();
+            this.lbl2025 = new System.Windows.Forms.Label();
+            this.lbl2024 = new System.Windows.Forms.Label();
+            this.lbl2023 = new System.Windows.Forms.Label();
+            this.lbl2022 = new System.Windows.Forms.Label();
+            this.lbl2021 = new System.Windows.Forms.Label();
+            this.lbl2020 = new System.Windows.Forms.Label();
+            this.lbl2019 = new System.Windows.Forms.Label();
+            this.txtStockName = new System.Windows.Forms.TextBox();
+            this.lblName = new System.Windows.Forms.Label();
             this.btnExport = new System.Windows.Forms.Button();
             this.btnAnalyze = new System.Windows.Forms.Button();
             this.btnRemove = new System.Windows.Forms.Button();
             this.mnsStock.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStock)).BeginInit();
             this.grbStock.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nud2019Stock)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nud2020Stock)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nud2021Stock)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nud2022Stock)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nud2023Stock)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nud2024Stock)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud2025Stock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud2024Stock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud2023Stock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud2022Stock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud2021Stock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud2020Stock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud2019Stock)).BeginInit();
             this.SuspendLayout();
             // 
             // mnsStock
@@ -135,75 +135,63 @@
             this.grbStock.TabStop = false;
             this.grbStock.Text = "Add/Update Stock(2019-2025)";
             // 
-            // lblName
+            // btnAdd
             // 
-            this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(6, 44);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(84, 16);
-            this.lblName.TabIndex = 11;
-            this.lblName.Text = "Stock Name:";
+            this.btnAdd.Location = new System.Drawing.Point(265, 299);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(116, 23);
+            this.btnAdd.TabIndex = 12;
+            this.btnAdd.Text = "Add/Replace";
+            this.btnAdd.UseVisualStyleBackColor = true;
             // 
-            // txtStockName
+            // nud2025Stock
             // 
-            this.txtStockName.Location = new System.Drawing.Point(173, 44);
-            this.txtStockName.Name = "txtStockName";
-            this.txtStockName.Size = new System.Drawing.Size(100, 22);
-            this.txtStockName.TabIndex = 12;
+            this.nud2025Stock.Location = new System.Drawing.Point(86, 283);
+            this.nud2025Stock.Name = "nud2025Stock";
+            this.nud2025Stock.Size = new System.Drawing.Size(120, 22);
+            this.nud2025Stock.TabIndex = 25;
             // 
-            // lbl2019
+            // nud2024Stock
             // 
-            this.lbl2019.AutoSize = true;
-            this.lbl2019.Location = new System.Drawing.Point(6, 95);
-            this.lbl2019.Name = "lbl2019";
-            this.lbl2019.Size = new System.Drawing.Size(35, 16);
-            this.lbl2019.TabIndex = 12;
-            this.lbl2019.Text = "2019";
+            this.nud2024Stock.Location = new System.Drawing.Point(86, 254);
+            this.nud2024Stock.Name = "nud2024Stock";
+            this.nud2024Stock.Size = new System.Drawing.Size(120, 22);
+            this.nud2024Stock.TabIndex = 24;
             // 
-            // lbl2020
+            // nud2023Stock
             // 
-            this.lbl2020.AutoSize = true;
-            this.lbl2020.Location = new System.Drawing.Point(6, 129);
-            this.lbl2020.Name = "lbl2020";
-            this.lbl2020.Size = new System.Drawing.Size(35, 16);
-            this.lbl2020.TabIndex = 13;
-            this.lbl2020.Text = "2020";
+            this.nud2023Stock.Location = new System.Drawing.Point(86, 221);
+            this.nud2023Stock.Name = "nud2023Stock";
+            this.nud2023Stock.Size = new System.Drawing.Size(120, 22);
+            this.nud2023Stock.TabIndex = 23;
             // 
-            // lbl2021
+            // nud2022Stock
             // 
-            this.lbl2021.AutoSize = true;
-            this.lbl2021.Location = new System.Drawing.Point(6, 161);
-            this.lbl2021.Name = "lbl2021";
-            this.lbl2021.Size = new System.Drawing.Size(35, 16);
-            this.lbl2021.TabIndex = 14;
-            this.lbl2021.Text = "2021";
+            this.nud2022Stock.Location = new System.Drawing.Point(86, 182);
+            this.nud2022Stock.Name = "nud2022Stock";
+            this.nud2022Stock.Size = new System.Drawing.Size(120, 22);
+            this.nud2022Stock.TabIndex = 22;
             // 
-            // lbl2022
+            // nud2021Stock
             // 
-            this.lbl2022.AutoSize = true;
-            this.lbl2022.Location = new System.Drawing.Point(6, 193);
-            this.lbl2022.Name = "lbl2022";
-            this.lbl2022.Size = new System.Drawing.Size(35, 16);
-            this.lbl2022.TabIndex = 15;
-            this.lbl2022.Text = "2022";
+            this.nud2021Stock.Location = new System.Drawing.Point(86, 154);
+            this.nud2021Stock.Name = "nud2021Stock";
+            this.nud2021Stock.Size = new System.Drawing.Size(120, 22);
+            this.nud2021Stock.TabIndex = 21;
             // 
-            // lbl2023
+            // nud2020Stock
             // 
-            this.lbl2023.AutoSize = true;
-            this.lbl2023.Location = new System.Drawing.Point(6, 221);
-            this.lbl2023.Name = "lbl2023";
-            this.lbl2023.Size = new System.Drawing.Size(35, 16);
-            this.lbl2023.TabIndex = 16;
-            this.lbl2023.Text = "2023";
+            this.nud2020Stock.Location = new System.Drawing.Point(86, 122);
+            this.nud2020Stock.Name = "nud2020Stock";
+            this.nud2020Stock.Size = new System.Drawing.Size(120, 22);
+            this.nud2020Stock.TabIndex = 20;
             // 
-            // lbl2024
+            // nud2019Stock
             // 
-            this.lbl2024.AutoSize = true;
-            this.lbl2024.Location = new System.Drawing.Point(6, 254);
-            this.lbl2024.Name = "lbl2024";
-            this.lbl2024.Size = new System.Drawing.Size(35, 16);
-            this.lbl2024.TabIndex = 17;
-            this.lbl2024.Text = "2024";
+            this.nud2019Stock.Location = new System.Drawing.Point(86, 95);
+            this.nud2019Stock.Name = "nud2019Stock";
+            this.nud2019Stock.Size = new System.Drawing.Size(120, 22);
+            this.nud2019Stock.TabIndex = 19;
             // 
             // lbl2025
             // 
@@ -214,63 +202,75 @@
             this.lbl2025.TabIndex = 18;
             this.lbl2025.Text = "2025";
             // 
-            // nud2019Stock
+            // lbl2024
             // 
-            this.nud2019Stock.Location = new System.Drawing.Point(86, 95);
-            this.nud2019Stock.Name = "nud2019Stock";
-            this.nud2019Stock.Size = new System.Drawing.Size(120, 22);
-            this.nud2019Stock.TabIndex = 19;
+            this.lbl2024.AutoSize = true;
+            this.lbl2024.Location = new System.Drawing.Point(6, 254);
+            this.lbl2024.Name = "lbl2024";
+            this.lbl2024.Size = new System.Drawing.Size(35, 16);
+            this.lbl2024.TabIndex = 17;
+            this.lbl2024.Text = "2024";
             // 
-            // nud2020Stock
+            // lbl2023
             // 
-            this.nud2020Stock.Location = new System.Drawing.Point(86, 122);
-            this.nud2020Stock.Name = "nud2020Stock";
-            this.nud2020Stock.Size = new System.Drawing.Size(120, 22);
-            this.nud2020Stock.TabIndex = 20;
+            this.lbl2023.AutoSize = true;
+            this.lbl2023.Location = new System.Drawing.Point(6, 221);
+            this.lbl2023.Name = "lbl2023";
+            this.lbl2023.Size = new System.Drawing.Size(35, 16);
+            this.lbl2023.TabIndex = 16;
+            this.lbl2023.Text = "2023";
             // 
-            // nud2021Stock
+            // lbl2022
             // 
-            this.nud2021Stock.Location = new System.Drawing.Point(86, 154);
-            this.nud2021Stock.Name = "nud2021Stock";
-            this.nud2021Stock.Size = new System.Drawing.Size(120, 22);
-            this.nud2021Stock.TabIndex = 21;
+            this.lbl2022.AutoSize = true;
+            this.lbl2022.Location = new System.Drawing.Point(6, 193);
+            this.lbl2022.Name = "lbl2022";
+            this.lbl2022.Size = new System.Drawing.Size(35, 16);
+            this.lbl2022.TabIndex = 15;
+            this.lbl2022.Text = "2022";
             // 
-            // nud2022Stock
+            // lbl2021
             // 
-            this.nud2022Stock.Location = new System.Drawing.Point(86, 182);
-            this.nud2022Stock.Name = "nud2022Stock";
-            this.nud2022Stock.Size = new System.Drawing.Size(120, 22);
-            this.nud2022Stock.TabIndex = 22;
+            this.lbl2021.AutoSize = true;
+            this.lbl2021.Location = new System.Drawing.Point(6, 161);
+            this.lbl2021.Name = "lbl2021";
+            this.lbl2021.Size = new System.Drawing.Size(35, 16);
+            this.lbl2021.TabIndex = 14;
+            this.lbl2021.Text = "2021";
             // 
-            // nud2023Stock
+            // lbl2020
             // 
-            this.nud2023Stock.Location = new System.Drawing.Point(86, 221);
-            this.nud2023Stock.Name = "nud2023Stock";
-            this.nud2023Stock.Size = new System.Drawing.Size(120, 22);
-            this.nud2023Stock.TabIndex = 23;
+            this.lbl2020.AutoSize = true;
+            this.lbl2020.Location = new System.Drawing.Point(6, 129);
+            this.lbl2020.Name = "lbl2020";
+            this.lbl2020.Size = new System.Drawing.Size(35, 16);
+            this.lbl2020.TabIndex = 13;
+            this.lbl2020.Text = "2020";
             // 
-            // nud2024Stock
+            // lbl2019
             // 
-            this.nud2024Stock.Location = new System.Drawing.Point(86, 254);
-            this.nud2024Stock.Name = "nud2024Stock";
-            this.nud2024Stock.Size = new System.Drawing.Size(120, 22);
-            this.nud2024Stock.TabIndex = 24;
+            this.lbl2019.AutoSize = true;
+            this.lbl2019.Location = new System.Drawing.Point(6, 95);
+            this.lbl2019.Name = "lbl2019";
+            this.lbl2019.Size = new System.Drawing.Size(35, 16);
+            this.lbl2019.TabIndex = 12;
+            this.lbl2019.Text = "2019";
             // 
-            // nud2025Stock
+            // txtStockName
             // 
-            this.nud2025Stock.Location = new System.Drawing.Point(86, 283);
-            this.nud2025Stock.Name = "nud2025Stock";
-            this.nud2025Stock.Size = new System.Drawing.Size(120, 22);
-            this.nud2025Stock.TabIndex = 25;
+            this.txtStockName.Location = new System.Drawing.Point(173, 44);
+            this.txtStockName.Name = "txtStockName";
+            this.txtStockName.Size = new System.Drawing.Size(100, 22);
+            this.txtStockName.TabIndex = 12;
             // 
-            // btnAdd
+            // lblName
             // 
-            this.btnAdd.Location = new System.Drawing.Point(265, 299);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(116, 23);
-            this.btnAdd.TabIndex = 12;
-            this.btnAdd.Text = "Add/Replace";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(6, 44);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(84, 16);
+            this.lblName.TabIndex = 11;
+            this.lblName.Text = "Stock Name:";
             // 
             // btnExport
             // 
@@ -299,6 +299,7 @@
             this.btnRemove.TabIndex = 28;
             this.btnRemove.Text = "Remove selected stock";
             this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // StockTrack
             // 
@@ -319,13 +320,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvStock)).EndInit();
             this.grbStock.ResumeLayout(false);
             this.grbStock.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nud2019Stock)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nud2020Stock)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nud2021Stock)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nud2022Stock)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nud2023Stock)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nud2024Stock)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nud2025Stock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud2024Stock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud2023Stock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud2022Stock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud2021Stock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud2020Stock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nud2019Stock)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

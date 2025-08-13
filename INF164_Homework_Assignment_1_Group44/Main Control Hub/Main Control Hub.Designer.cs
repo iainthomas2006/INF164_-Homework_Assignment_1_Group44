@@ -108,6 +108,7 @@
             this.lblGrowthEngine.Size = new System.Drawing.Size(96, 16);
             this.lblGrowthEngine.TabIndex = 0;
             this.lblGrowthEngine.Text = "Growth Engine:";
+            this.lblGrowthEngine.Click += new System.EventHandler(this.lblGrowthEngine_Click);
             // 
             // mnsMainControl
             // 
@@ -124,13 +125,13 @@
             // moduleToolStripMenuItem
             // 
             this.moduleToolStripMenuItem.Name = "moduleToolStripMenuItem";
-            this.moduleToolStripMenuItem.Size = new System.Drawing.Size(74, 26);
+            this.moduleToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.moduleToolStripMenuItem.Text = "Module";
             // 
             // sessionToolStripMenuItem
             // 
             this.sessionToolStripMenuItem.Name = "sessionToolStripMenuItem";
-            this.sessionToolStripMenuItem.Size = new System.Drawing.Size(72, 26);
+            this.sessionToolStripMenuItem.Size = new System.Drawing.Size(72, 24);
             this.sessionToolStripMenuItem.Text = "Session";
             // 
             // Main_Control_Hub
