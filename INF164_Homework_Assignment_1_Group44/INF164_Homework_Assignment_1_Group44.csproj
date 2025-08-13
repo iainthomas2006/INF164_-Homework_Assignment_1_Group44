@@ -46,54 +46,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Login\Form1.cs">
+    <Compile Include="Login Form\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login\Form1.Designer.cs">
+    <Compile Include="Login Form\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="GrowthEnginePro\GrowthEnginePro.cs">
+    <Compile Include="GrowthEngine\GrowthEnginePro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GrowthEnginePro\GrowthEnginePro.Designer.cs">
+    <Compile Include="GrowthEngine\GrowthEnginePro.Designer.cs">
       <DependentUpon>GrowthEnginePro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main Control Hub\Main Control Hub.cs">
+    <Compile Include="Main Control\Main Control Hub.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main Control Hub\Main Control Hub.Designer.cs">
+    <Compile Include="Main Control\Main Control Hub.Designer.cs">
       <DependentUpon>Main Control Hub.cs</DependentUpon>
     </Compile>
-    <Compile Include="MediaRecovery.cs">
+    <Compile Include="Media Recovery\MediaRecovery.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MediaRecovery.Designer.cs">
+    <Compile Include="Media Recovery\MediaRecovery.Designer.cs">
       <DependentUpon>MediaRecovery.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RainfallData\RainfallData.cs">
+    <Compile Include="Rainfall Data\RainfallData.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RainfallData\RainfallData.Designer.cs">
+    <Compile Include="Rainfall Data\RainfallData.Designer.cs">
       <DependentUpon>RainfallData.cs</DependentUpon>
     </Compile>
-    <Compile Include="StockTrak\StockTrack.cs">
+    <Compile Include="Stock Tracker\StockTrack.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StockTrak\StockTrack.Designer.cs">
+    <Compile Include="Stock Tracker\StockTrack.Designer.cs">
       <DependentUpon>StockTrack.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Login\Form1.resx">
+    <EmbeddedResource Include="Login Form\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GrowthEnginePro\GrowthEnginePro.resx">
+    <EmbeddedResource Include="GrowthEngine\GrowthEnginePro.resx">
       <DependentUpon>GrowthEnginePro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main Control Hub\Main Control Hub.resx">
+    <EmbeddedResource Include="Main Control\Main Control Hub.resx">
       <DependentUpon>Main Control Hub.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MediaRecovery.resx">
+    <EmbeddedResource Include="Media Recovery\MediaRecovery.resx">
       <DependentUpon>MediaRecovery.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -105,10 +105,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="RainfallData\RainfallData.resx">
+    <EmbeddedResource Include="Rainfall Data\RainfallData.resx">
       <DependentUpon>RainfallData.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StockTrak\StockTrack.resx">
+    <EmbeddedResource Include="Stock Tracker\StockTrack.resx">
       <DependentUpon>StockTrack.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
