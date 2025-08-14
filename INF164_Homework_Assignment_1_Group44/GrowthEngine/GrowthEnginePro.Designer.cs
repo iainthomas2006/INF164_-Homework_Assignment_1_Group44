@@ -61,7 +61,7 @@
             this.sessionToolStripMenuItem});
             this.mnsGrowth.Location = new System.Drawing.Point(0, 0);
             this.mnsGrowth.Name = "mnsGrowth";
-            this.mnsGrowth.Size = new System.Drawing.Size(1028, 28);
+            this.mnsGrowth.Size = new System.Drawing.Size(1028, 30);
             this.mnsGrowth.TabIndex = 7;
             this.mnsGrowth.Text = "Module";
             // 
@@ -99,13 +99,25 @@
             this.nudMonths.Name = "nudMonths";
             this.nudMonths.Size = new System.Drawing.Size(120, 22);
             this.nudMonths.TabIndex = 6;
+            this.nudMonths.ValueChanged += new System.EventHandler(this.nudMonths_ValueChanged);
             // 
             // nudTarget
             // 
+            this.nudTarget.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.nudTarget.Location = new System.Drawing.Point(47, 130);
+            this.nudTarget.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
             this.nudTarget.Name = "nudTarget";
             this.nudTarget.Size = new System.Drawing.Size(120, 22);
             this.nudTarget.TabIndex = 5;
+            this.nudTarget.ValueChanged += new System.EventHandler(this.nudTarget_ValueChanged);
             // 
             // lblResult
             // 
@@ -136,6 +148,7 @@
             // 
             // nudBalance
             // 
+            this.nudBalance.Enabled = false;
             this.nudBalance.Location = new System.Drawing.Point(47, 59);
             this.nudBalance.Name = "nudBalance";
             this.nudBalance.Size = new System.Drawing.Size(120, 22);
@@ -192,6 +205,7 @@
             this.radFlat.TabStop = true;
             this.radFlat.Text = "Flat Growth%";
             this.radFlat.UseVisualStyleBackColor = true;
+            this.radFlat.CheckedChanged += new System.EventHandler(this.radFlat_CheckedChanged);
             // 
             // rtxtInvestment
             // 
@@ -222,6 +236,7 @@
             this.Controls.Add(this.mnsGrowth);
             this.Name = "frmGrowthEnginePro";
             this.Text = "GrowthEnginePro";
+            this.Load += new System.EventHandler(this.frmGrowthEnginePro_Load);
             this.mnsGrowth.ResumeLayout(false);
             this.mnsGrowth.PerformLayout();
             this.grpInvestment.ResumeLayout(false);

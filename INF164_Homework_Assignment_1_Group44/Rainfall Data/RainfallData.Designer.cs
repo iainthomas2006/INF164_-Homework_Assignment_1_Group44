@@ -30,6 +30,7 @@
         {
             this.mnsRainfall = new System.Windows.Forms.MenuStrip();
             this.moduleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiMainControl = new System.Windows.Forms.ToolStripMenuItem();
             this.sessionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblHeading = new System.Windows.Forms.Label();
             this.btnGenerate = new System.Windows.Forms.Button();
@@ -53,15 +54,24 @@
             this.sessionToolStripMenuItem});
             this.mnsRainfall.Location = new System.Drawing.Point(0, 0);
             this.mnsRainfall.Name = "mnsRainfall";
-            this.mnsRainfall.Size = new System.Drawing.Size(1115, 28);
+            this.mnsRainfall.Size = new System.Drawing.Size(1512, 28);
             this.mnsRainfall.TabIndex = 9;
             this.mnsRainfall.Text = "Module";
             // 
             // moduleToolStripMenuItem
             // 
+            this.moduleToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiMainControl});
             this.moduleToolStripMenuItem.Name = "moduleToolStripMenuItem";
             this.moduleToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.moduleToolStripMenuItem.Text = "Module";
+            // 
+            // tsmiMainControl
+            // 
+            this.tsmiMainControl.Name = "tsmiMainControl";
+            this.tsmiMainControl.Size = new System.Drawing.Size(210, 26);
+            this.tsmiMainControl.Text = "Main Control Hub";
+            this.tsmiMainControl.Click += new System.EventHandler(this.htsmiMainControl_Click);
             // 
             // sessionToolStripMenuItem
             // 
@@ -81,36 +91,38 @@
             // 
             // btnGenerate
             // 
-            this.btnGenerate.Location = new System.Drawing.Point(37, 81);
+            this.btnGenerate.Location = new System.Drawing.Point(12, 70);
             this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new System.Drawing.Size(164, 23);
+            this.btnGenerate.Size = new System.Drawing.Size(164, 34);
             this.btnGenerate.TabIndex = 11;
             this.btnGenerate.Text = "Generate Rainfall Data";
             this.btnGenerate.UseVisualStyleBackColor = true;
+            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
             // btnAnalyze
             // 
-            this.btnAnalyze.Location = new System.Drawing.Point(252, 81);
+            this.btnAnalyze.Location = new System.Drawing.Point(196, 72);
             this.btnAnalyze.Name = "btnAnalyze";
-            this.btnAnalyze.Size = new System.Drawing.Size(164, 23);
+            this.btnAnalyze.Size = new System.Drawing.Size(164, 32);
             this.btnAnalyze.TabIndex = 12;
             this.btnAnalyze.Text = "Analyze Anomalies";
             this.btnAnalyze.UseVisualStyleBackColor = true;
+            this.btnAnalyze.Click += new System.EventHandler(this.btnAnalyze_Click);
             // 
             // dgvRainfall
             // 
             this.dgvRainfall.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvRainfall.Location = new System.Drawing.Point(37, 134);
+            this.dgvRainfall.Location = new System.Drawing.Point(0, 103);
             this.dgvRainfall.Name = "dgvRainfall";
             this.dgvRainfall.RowHeadersWidth = 51;
             this.dgvRainfall.RowTemplate.Height = 24;
-            this.dgvRainfall.Size = new System.Drawing.Size(533, 230);
+            this.dgvRainfall.Size = new System.Drawing.Size(1069, 343);
             this.dgvRainfall.TabIndex = 13;
             // 
             // lblAnomalies
             // 
             this.lblAnomalies.AutoSize = true;
-            this.lblAnomalies.Location = new System.Drawing.Point(34, 389);
+            this.lblAnomalies.Location = new System.Drawing.Point(-3, 452);
             this.lblAnomalies.Name = "lblAnomalies";
             this.lblAnomalies.Size = new System.Drawing.Size(129, 16);
             this.lblAnomalies.TabIndex = 14;
@@ -119,19 +131,20 @@
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(37, 445);
+            this.btnReset.Location = new System.Drawing.Point(0, 482);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(126, 23);
+            this.btnReset.Size = new System.Drawing.Size(126, 35);
             this.btnReset.TabIndex = 15;
             this.btnReset.Text = "Reset Grid";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // grpSummary
             // 
             this.grpSummary.Controls.Add(this.rtxtSummary);
-            this.grpSummary.Location = new System.Drawing.Point(623, 92);
+            this.grpSummary.Location = new System.Drawing.Point(1075, 53);
             this.grpSummary.Name = "grpSummary";
-            this.grpSummary.Size = new System.Drawing.Size(437, 393);
+            this.grpSummary.Size = new System.Drawing.Size(437, 519);
             this.grpSummary.TabIndex = 16;
             this.grpSummary.TabStop = false;
             this.grpSummary.Text = "Rainfall Summary";
@@ -140,24 +153,25 @@
             // 
             this.rtxtSummary.Location = new System.Drawing.Point(35, 42);
             this.rtxtSummary.Name = "rtxtSummary";
-            this.rtxtSummary.Size = new System.Drawing.Size(372, 334);
+            this.rtxtSummary.Size = new System.Drawing.Size(372, 443);
             this.rtxtSummary.TabIndex = 0;
             this.rtxtSummary.Text = "";
             // 
             // btnSummary
             // 
-            this.btnSummary.Location = new System.Drawing.Point(763, 491);
+            this.btnSummary.Location = new System.Drawing.Point(1110, 578);
             this.btnSummary.Name = "btnSummary";
-            this.btnSummary.Size = new System.Drawing.Size(164, 53);
+            this.btnSummary.Size = new System.Drawing.Size(372, 53);
             this.btnSummary.TabIndex = 1;
             this.btnSummary.Text = "Generate Summary";
             this.btnSummary.UseVisualStyleBackColor = true;
+            this.btnSummary.Click += new System.EventHandler(this.btnSummary_Click);
             // 
             // frmRainfallData
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1115, 611);
+            this.ClientSize = new System.Drawing.Size(1512, 697);
             this.Controls.Add(this.btnSummary);
             this.Controls.Add(this.grpSummary);
             this.Controls.Add(this.btnReset);
@@ -169,6 +183,7 @@
             this.Controls.Add(this.mnsRainfall);
             this.Name = "frmRainfallData";
             this.Text = "RainfallData";
+            this.Load += new System.EventHandler(this.frmRainfallData_Load);
             this.mnsRainfall.ResumeLayout(false);
             this.mnsRainfall.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRainfall)).EndInit();
@@ -192,5 +207,6 @@
         private System.Windows.Forms.GroupBox grpSummary;
         private System.Windows.Forms.Button btnSummary;
         private System.Windows.Forms.RichTextBox rtxtSummary;
+        private System.Windows.Forms.ToolStripMenuItem tsmiMainControl;
     }
 }

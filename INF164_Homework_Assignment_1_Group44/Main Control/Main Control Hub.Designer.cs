@@ -37,7 +37,9 @@
             this.lblGrowthEngine = new System.Windows.Forms.Label();
             this.mnsMainControl = new System.Windows.Forms.MenuStrip();
             this.moduleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiGrowthEngine = new System.Windows.Forms.ToolStripMenuItem();
             this.sessionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiRainfall = new System.Windows.Forms.ToolStripMenuItem();
             this.grbModuleAccess.SuspendLayout();
             this.mnsMainControl.SuspendLayout();
             this.SuspendLayout();
@@ -123,15 +125,32 @@
             // 
             // moduleToolStripMenuItem
             // 
+            this.moduleToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiGrowthEngine,
+            this.tsmiRainfall});
             this.moduleToolStripMenuItem.Name = "moduleToolStripMenuItem";
             this.moduleToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.moduleToolStripMenuItem.Text = "Module";
+            // 
+            // tsmiGrowthEngine
+            // 
+            this.tsmiGrowthEngine.Name = "tsmiGrowthEngine";
+            this.tsmiGrowthEngine.Size = new System.Drawing.Size(224, 26);
+            this.tsmiGrowthEngine.Text = "Growth Engine";
+            this.tsmiGrowthEngine.Click += new System.EventHandler(this.tsmiGrowthEngine_Click);
             // 
             // sessionToolStripMenuItem
             // 
             this.sessionToolStripMenuItem.Name = "sessionToolStripMenuItem";
             this.sessionToolStripMenuItem.Size = new System.Drawing.Size(72, 24);
             this.sessionToolStripMenuItem.Text = "Session";
+            // 
+            // tsmiRainfall
+            // 
+            this.tsmiRainfall.Name = "tsmiRainfall";
+            this.tsmiRainfall.Size = new System.Drawing.Size(224, 26);
+            this.tsmiRainfall.Text = "Rainfall Data";
+            this.tsmiRainfall.Click += new System.EventHandler(this.tsmiRainfall_Click);
             // 
             // frmMain_Control_Hub
             // 
@@ -164,5 +183,7 @@
         private System.Windows.Forms.MenuStrip mnsMainControl;
         private System.Windows.Forms.ToolStripMenuItem moduleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sessionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmiGrowthEngine;
+        private System.Windows.Forms.ToolStripMenuItem tsmiRainfall;
     }
 }
