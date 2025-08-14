@@ -16,5 +16,11 @@ namespace INF164_Homework_Assignment_1_Group44
         {
             InitializeComponent();
         }
+
+        private void stockTrackAndAnalyzerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmStockTrack stockTrack = new frmStockTrack();
+            stockTrack.ShowDialog();
+        }
     }
 }

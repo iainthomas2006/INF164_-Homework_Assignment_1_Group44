@@ -1,14 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\iaint\\OneDrive\\Documents\\UniNotes\\Semester 2\\INF164\\Group Project\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\",
+  "WorkspaceRootPath": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|c:\\users\\iaint\\onedrive\\documents\\uninotes\\semester 2\\inf164\\group project\\inf164_-homework_assignment_1_group44\\inf164_homework_assignment_1_group44\\main control hub\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:main control hub\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|c:\\users\\morga\\onedrive\\documents\\github\\inf164_-homework_assignment_1_group44\\inf164_homework_assignment_1_group44\\stock tracker\\stocktrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:stock tracker\\stocktrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\Users\\iaint\\OneDrive\\Documents\\UniNotes\\Semester 2\\INF164\\Group Project\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\main control hub\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:main control hub\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\stock tracker\\stocktrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:stock tracker\\stocktrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\main control\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:main control\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\main control\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:main control\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\media recovery\\mediarecovery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:media recovery\\mediarecovery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\login form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:login form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\rainfall data\\rainfalldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:rainfall data\\rainfalldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\growthengine\\growthenginepro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:growthengine\\growthenginepro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +42,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main Control Hub.cs",
-              "DocumentMoniker": "C:\\Users\\iaint\\OneDrive\\Documents\\UniNotes\\Semester 2\\INF164\\Group Project\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control Hub\\Main Control Hub.cs",
-              "RelativeDocumentMoniker": "Main Control Hub\\Main Control Hub.cs",
-              "ToolTip": "C:\\Users\\iaint\\OneDrive\\Documents\\UniNotes\\Semester 2\\INF164\\Group Project\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control Hub\\Main Control Hub.cs",
-              "RelativeToolTip": "Main Control Hub\\Main Control Hub.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAASwBUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "StockTrack.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Stock Tracker\\StockTrack.cs",
+              "RelativeDocumentMoniker": "Stock Tracker\\StockTrack.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Stock Tracker\\StockTrack.cs",
+              "RelativeToolTip": "Stock Tracker\\StockTrack.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwN8AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T07:39:43.664Z",
+              "WhenOpened": "2025-08-13T16:42:14.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Main Control Hub.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\iaint\\OneDrive\\Documents\\UniNotes\\Semester 2\\INF164\\Group Project\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control Hub\\Main Control Hub.cs",
-              "RelativeDocumentMoniker": "Main Control Hub\\Main Control Hub.cs",
-              "ToolTip": "C:\\Users\\iaint\\OneDrive\\Documents\\UniNotes\\Semester 2\\INF164\\Group Project\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control Hub\\Main Control Hub.cs [Design]",
-              "RelativeToolTip": "Main Control Hub\\Main Control Hub.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "Main Control Hub.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control\\Main Control Hub.cs",
+              "RelativeDocumentMoniker": "Main Control\\Main Control Hub.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control\\Main Control Hub.cs",
+              "RelativeToolTip": "Main Control\\Main Control Hub.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T07:39:39.194Z",
+              "WhenOpened": "2025-08-13T17:53:27.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StockTrack.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Stock Tracker\\StockTrack.cs",
+              "RelativeDocumentMoniker": "Stock Tracker\\StockTrack.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Stock Tracker\\StockTrack.cs [Design]",
+              "RelativeToolTip": "Stock Tracker\\StockTrack.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T09:52:34.235Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RainfallData.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Rainfall Data\\RainfallData.cs",
+              "RelativeDocumentMoniker": "Rainfall Data\\RainfallData.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Rainfall Data\\RainfallData.cs [Design]",
+              "RelativeToolTip": "Rainfall Data\\RainfallData.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T09:52:31.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MediaRecovery.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Media Recovery\\MediaRecovery.cs",
+              "RelativeDocumentMoniker": "Media Recovery\\MediaRecovery.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Media Recovery\\MediaRecovery.cs [Design]",
+              "RelativeToolTip": "Media Recovery\\MediaRecovery.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T09:52:29.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main Control Hub.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control\\Main Control Hub.cs",
+              "RelativeDocumentMoniker": "Main Control\\Main Control Hub.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control\\Main Control Hub.cs [Design]",
+              "RelativeToolTip": "Main Control\\Main Control Hub.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T09:52:26.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Login Form\\Form1.cs",
+              "RelativeDocumentMoniker": "Login Form\\Form1.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Login Form\\Form1.cs [Design]",
+              "RelativeToolTip": "Login Form\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T09:52:23.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GrowthEnginePro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\GrowthEngine\\GrowthEnginePro.cs",
+              "RelativeDocumentMoniker": "GrowthEngine\\GrowthEnginePro.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Documents\\GitHub\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\GrowthEngine\\GrowthEnginePro.cs [Design]",
+              "RelativeToolTip": "GrowthEngine\\GrowthEnginePro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T09:51:30.518Z"
             }
           ]
         }
