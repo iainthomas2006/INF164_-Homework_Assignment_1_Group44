@@ -29,8 +29,8 @@ namespace INF164_Homework_Assignment_1_Group44
         {
             try
             {
-                BalanceInput = new StreamReader("Balance Current");
-                Balance = Convert.ToDouble(BalanceInput.ReadToEnd());
+                BalanceInput = new StreamReader("Balance.txt");
+               // Balance = Convert.ToDouble(BalanceInput.ReadToEnd());
                 nudBalance.Value = Convert.ToInt16(Balance);
                 nudBalance.Enabled = false;
             }
@@ -38,6 +38,8 @@ namespace INF164_Homework_Assignment_1_Group44
             {
                 ErrorMessage("File Was not Found", "File Found Error");
                 nudBalance.Enabled = true;
+                File.Create("Balance.txt");
+               
             }
             catch (FileLoadException)
             {
@@ -70,7 +72,6 @@ namespace INF164_Homework_Assignment_1_Group44
         private void nudTarget_ValueChanged(object sender, EventArgs e)
         {
             TargetBalance = Convert.ToDouble(nudTarget.Value);
-            MessageBox.Show(StudentEmail);
         }
         private void nudMonths_ValueChanged(object sender, EventArgs e)
         {
@@ -119,6 +120,31 @@ namespace INF164_Homework_Assignment_1_Group44
         {
             Currents = ((TargetBalance - Currents)/Months)/Currents * 100;
             Math.Round(Currents,2);
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            bool validation = false;
+            Validate(out validation);
+            if (validation == false)
+            {
+                ErrorMessage("Target balance must be above current," + " months should be greater than 0 and " +
+                    "either compound or flat should be checked", "Validation Failed");
+            }
+            else
+            {
+                SaveNewBalance();
+            }
+        }
+        private void SaveNewBalance()
+        {
+            string[] lines = File.ReadAllLines("Balance.txt");
+            int i = 0;
+            while (i < lines.Length)
+            {
+                please help me
+
+            }
         }
         private void BalanceCompound(ref double Currents)
         {

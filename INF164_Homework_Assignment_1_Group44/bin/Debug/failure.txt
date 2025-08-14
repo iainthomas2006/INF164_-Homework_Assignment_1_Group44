@@ -2,3 +2,9 @@
 2025/08/14 - 18:28:39 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked
 2025/08/14 - 18:40:33 File Was not Found
 2025/08/14 - 18:42:15 File Was not Found
+2025/08/14 - 18:53:54 File Was not Found
+2025/08/14 - 18:57:16 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked
+2025/08/14 - 18:58:00 File Was not Found
+2025/08/14 - 18:58:06 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked
+2025/08/14 - 19:03:37 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked
+2025/08/14 - 19:03:50 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked

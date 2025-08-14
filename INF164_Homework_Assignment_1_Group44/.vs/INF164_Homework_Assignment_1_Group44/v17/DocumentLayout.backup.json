@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|c:\\lecture notes\\inf164_-homework_assignment_1_group44\\inf164_homework_assignment_1_group44\\login form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:login form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|c:\\lecture notes\\inf164_-homework_assignment_1_group44\\inf164_homework_assignment_1_group44\\growthengine\\growthenginepro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\growthengine\\growthenginepro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:growthengine\\growthenginepro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\rainfall data\\rainfalldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:rainfall data\\rainfalldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|c:\\lecture notes\\inf164_-homework_assignment_1_group44\\inf164_homework_assignment_1_group44\\login form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:login form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\growthengine\\growthenginepro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -25,6 +13,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\main control\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:main control\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|c:\\lecture notes\\inf164_-homework_assignment_1_group44\\inf164_homework_assignment_1_group44\\login form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:login form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\rainfall data\\rainfalldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:rainfall data\\rainfalldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\login form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|solutionrelative:login form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79DE4B48-A31D-4970-8E87-39C13140D0DC}|INF164_Homework_Assignment_1_Group44.csproj|C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\main control\\main control hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -58,48 +58,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Login Form\\Form1.cs",
               "RelativeDocumentMoniker": "Login Form\\Form1.cs",
               "ToolTip": "C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Login Form\\Form1.cs",
               "RelativeToolTip": "Login Form\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T16:33:35.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Login Form\\Form1.cs",
               "RelativeDocumentMoniker": "Login Form\\Form1.cs",
               "ToolTip": "C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Login Form\\Form1.cs [Design]",
               "RelativeToolTip": "Login Form\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T16:33:14.305Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-14T16:33:14.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Main Control Hub.cs",
               "DocumentMoniker": "C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control\\Main Control Hub.cs",
               "RelativeDocumentMoniker": "Main Control\\Main Control Hub.cs",
               "ToolTip": "C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control\\Main Control Hub.cs",
               "RelativeToolTip": "Main Control\\Main Control Hub.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADgvxMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA8wBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T11:56:40.897Z"
+              "WhenOpened": "2025-08-14T11:56:40.897Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "GrowthEnginePro.cs [Design]",
               "DocumentMoniker": "C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\GrowthEngine\\GrowthEnginePro.cs",
               "RelativeDocumentMoniker": "GrowthEngine\\GrowthEnginePro.cs",
@@ -111,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RainfallData.cs",
               "DocumentMoniker": "C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Rainfall Data\\RainfallData.cs",
               "RelativeDocumentMoniker": "Rainfall Data\\RainfallData.cs",
@@ -119,18 +119,17 @@
               "RelativeToolTip": "Rainfall Data\\RainfallData.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAwwFUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T12:02:36.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T12:02:36.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GrowthEnginePro.cs",
               "DocumentMoniker": "C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\GrowthEngine\\GrowthEnginePro.cs",
               "RelativeDocumentMoniker": "GrowthEngine\\GrowthEnginePro.cs",
               "ToolTip": "C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\GrowthEngine\\GrowthEnginePro.cs",
               "RelativeToolTip": "GrowthEngine\\GrowthEnginePro.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEgAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAqwJEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T12:20:53.429Z",
               "EditorCaption": ""
@@ -144,7 +143,8 @@
               "ToolTip": "C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Main Control\\Main Control Hub.cs [Design]",
               "RelativeToolTip": "Main Control\\Main Control Hub.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T11:47:13.231Z"
+              "WhenOpened": "2025-08-14T11:47:13.231Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -155,8 +155,7 @@
               "ToolTip": "C:\\LEcture Notes\\INF164_-Homework_Assignment_1_Group44\\INF164_Homework_Assignment_1_Group44\\Rainfall Data\\RainfallData.cs [Design]",
               "RelativeToolTip": "Rainfall Data\\RainfallData.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T12:02:25.601Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-14T12:02:25.601Z"
             },
             {
               "$type": "Document",
