@@ -1,0 +1,18 @@
+NeoFit Rainfall Summary - 2025:08:14 15:40:03 pm
+Monitoring Scope : 10 Geographic Zones,10 readings per zone(range:1.00-100.00) 
+Thresholds: Low < 20 mm,High > 80 mm 
+
+ Overall: 
+Average :50,69mm
+Minimum :1,42 mm Maximum :99,97 mm
+Extremes (Low/High) :36%
+
+Band Breakdown: 
+Low (<20 mm) : count = 19 | avg =  9,51 mm 
+Medium (20-80mm) : count = 64 | avg =  52,78 mm 
+High (> 80mm) : count = 17 | avg =  88,82 mm
+
+Operational Notes: 
+Use normal-band averages to plan standard camp days. 
+High-Band clusters indicate flood risk: pre-deploy drainage & shelter.
+Low-Band clusters indicate drought risk : adjust hydration/heat policies

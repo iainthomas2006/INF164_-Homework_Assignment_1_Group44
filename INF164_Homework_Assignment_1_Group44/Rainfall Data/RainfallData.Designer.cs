@@ -41,6 +41,7 @@
             this.grpSummary = new System.Windows.Forms.GroupBox();
             this.rtxtSummary = new System.Windows.Forms.RichTextBox();
             this.btnSummary = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.mnsRainfall.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRainfall)).BeginInit();
             this.grpSummary.SuspendLayout();
@@ -137,6 +138,7 @@
             this.btnReset.TabIndex = 15;
             this.btnReset.Text = "Reset Grid";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // grpSummary
             // 
@@ -164,12 +166,24 @@
             this.btnSummary.TabIndex = 1;
             this.btnSummary.Text = "Generate Summary";
             this.btnSummary.UseVisualStyleBackColor = true;
+            this.btnSummary.Click += new System.EventHandler(this.btnSummary_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(699, 45);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(361, 23);
+            this.btnClose.TabIndex = 17;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // frmRainfallData
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1115, 611);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSummary);
             this.Controls.Add(this.grpSummary);
             this.Controls.Add(this.btnReset);
@@ -205,5 +219,6 @@
         private System.Windows.Forms.Button btnSummary;
         private System.Windows.Forms.RichTextBox rtxtSummary;
         private System.Windows.Forms.ToolStripMenuItem tsmiMainControl;
+        private System.Windows.Forms.Button btnClose;
     }
 }
