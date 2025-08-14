@@ -23,5 +23,15 @@ namespace INF164_Homework_Assignment_1_Group44
             this.Close(); 
             main_Control_Hub.Show();
         }
+
+        private void btnAnalyze_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGenerate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

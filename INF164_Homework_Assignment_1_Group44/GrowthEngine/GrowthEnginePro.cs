@@ -59,6 +59,11 @@ namespace INF164_Homework_Assignment_1_Group44
             Months = Convert.ToInt16(nudMonths.Value);
         }
 
+        private void nudBalance_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private bool Validate(decimal Current, decimal Target , int Month)
         {
             bool Validated = false;

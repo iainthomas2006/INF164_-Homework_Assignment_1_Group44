@@ -30,6 +30,7 @@
         {
             this.mnsRainfall = new System.Windows.Forms.MenuStrip();
             this.moduleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiMainControl = new System.Windows.Forms.ToolStripMenuItem();
             this.sessionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblHeading = new System.Windows.Forms.Label();
             this.btnGenerate = new System.Windows.Forms.Button();
@@ -40,7 +41,6 @@
             this.grpSummary = new System.Windows.Forms.GroupBox();
             this.rtxtSummary = new System.Windows.Forms.RichTextBox();
             this.btnSummary = new System.Windows.Forms.Button();
-            this.tsmiMainControl = new System.Windows.Forms.ToolStripMenuItem();
             this.mnsRainfall.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRainfall)).BeginInit();
             this.grpSummary.SuspendLayout();
@@ -66,6 +66,13 @@
             this.moduleToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.moduleToolStripMenuItem.Text = "Module";
             // 
+            // tsmiMainControl
+            // 
+            this.tsmiMainControl.Name = "tsmiMainControl";
+            this.tsmiMainControl.Size = new System.Drawing.Size(210, 26);
+            this.tsmiMainControl.Text = "Main Control Hub";
+            this.tsmiMainControl.Click += new System.EventHandler(this.htsmiMainControl_Click);
+            // 
             // sessionToolStripMenuItem
             // 
             this.sessionToolStripMenuItem.Name = "sessionToolStripMenuItem";
@@ -90,6 +97,7 @@
             this.btnGenerate.TabIndex = 11;
             this.btnGenerate.Text = "Generate Rainfall Data";
             this.btnGenerate.UseVisualStyleBackColor = true;
+            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
             // btnAnalyze
             // 
@@ -99,6 +107,7 @@
             this.btnAnalyze.TabIndex = 12;
             this.btnAnalyze.Text = "Analyze Anomalies";
             this.btnAnalyze.UseVisualStyleBackColor = true;
+            this.btnAnalyze.Click += new System.EventHandler(this.btnAnalyze_Click);
             // 
             // dgvRainfall
             // 
@@ -155,13 +164,6 @@
             this.btnSummary.TabIndex = 1;
             this.btnSummary.Text = "Generate Summary";
             this.btnSummary.UseVisualStyleBackColor = true;
-            // 
-            // tsmiMainControl
-            // 
-            this.tsmiMainControl.Name = "tsmiMainControl";
-            this.tsmiMainControl.Size = new System.Drawing.Size(224, 26);
-            this.tsmiMainControl.Text = "Main Control Hub";
-            this.tsmiMainControl.Click += new System.EventHandler(this.htsmiMainControl_Click);
             // 
             // frmRainfallData
             // 

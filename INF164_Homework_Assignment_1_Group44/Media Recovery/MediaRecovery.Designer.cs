@@ -122,6 +122,7 @@
             this.btnScan.TabIndex = 1;
             this.btnScan.Text = "Scan Now";
             this.btnScan.UseVisualStyleBackColor = true;
+            this.btnScan.Click += new System.EventHandler(this.btnScan_Click);
             // 
             // lblStatus
             // 
@@ -372,6 +373,7 @@
             this.mediaPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("mediaPlayer.OcxState")));
             this.mediaPlayer.Size = new System.Drawing.Size(560, 398);
             this.mediaPlayer.TabIndex = 0;
+            this.mediaPlayer.Enter += new System.EventHandler(this.mediaPlayer_Enter);
             // 
             // MediaRecovery
             // 

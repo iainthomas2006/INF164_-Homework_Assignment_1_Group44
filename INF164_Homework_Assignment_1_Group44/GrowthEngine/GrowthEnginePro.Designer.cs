@@ -61,7 +61,7 @@
             this.sessionToolStripMenuItem});
             this.mnsGrowth.Location = new System.Drawing.Point(0, 0);
             this.mnsGrowth.Name = "mnsGrowth";
-            this.mnsGrowth.Size = new System.Drawing.Size(1028, 30);
+            this.mnsGrowth.Size = new System.Drawing.Size(1028, 28);
             this.mnsGrowth.TabIndex = 7;
             this.mnsGrowth.Text = "Module";
             // 
@@ -153,6 +153,7 @@
             this.nudBalance.Name = "nudBalance";
             this.nudBalance.Size = new System.Drawing.Size(120, 22);
             this.nudBalance.TabIndex = 1;
+            this.nudBalance.ValueChanged += new System.EventHandler(this.nudBalance_ValueChanged);
             // 
             // lblBalance
             // 

@@ -299,6 +299,7 @@
             this.btnRemove.TabIndex = 28;
             this.btnRemove.Text = "Remove selected stock";
             this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // frmStockTrack
             // 

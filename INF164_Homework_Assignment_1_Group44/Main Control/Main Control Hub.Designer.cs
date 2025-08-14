@@ -37,9 +37,14 @@
             this.lblGrowthEngine = new System.Windows.Forms.Label();
             this.mnsMainControl = new System.Windows.Forms.MenuStrip();
             this.moduleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiStockTracker = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiGrowthEngine = new System.Windows.Forms.ToolStripMenuItem();
-            this.sessionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiRainfall = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiMediaRecovery = new System.Windows.Forms.ToolStripMenuItem();
+            this.sessionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadSessionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveSessionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitSessionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grbModuleAccess.SuspendLayout();
             this.mnsMainControl.SuspendLayout();
             this.SuspendLayout();
@@ -65,6 +70,7 @@
             this.grbModuleAccess.TabIndex = 3;
             this.grbModuleAccess.TabStop = false;
             this.grbModuleAccess.Text = "Module Access Manager";
+            this.grbModuleAccess.Enter += new System.EventHandler(this.grbModuleAccess_Enter);
             // 
             // lblSave
             // 
@@ -122,15 +128,26 @@
             this.mnsMainControl.Size = new System.Drawing.Size(800, 28);
             this.mnsMainControl.TabIndex = 6;
             this.mnsMainControl.Text = "Module";
+            this.mnsMainControl.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.mnsMainControl_ItemClicked);
             // 
             // moduleToolStripMenuItem
             // 
             this.moduleToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiGrowthEngine,
-            this.tsmiRainfall});
+            this.tsmiRainfall,
+            this.tsmiStockTracker,
+            this.tsmiMediaRecovery});
             this.moduleToolStripMenuItem.Name = "moduleToolStripMenuItem";
             this.moduleToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.moduleToolStripMenuItem.Text = "Module";
+            this.moduleToolStripMenuItem.Click += new System.EventHandler(this.moduleToolStripMenuItem_Click);
+            // 
+            // tsmiStockTracker
+            // 
+            this.tsmiStockTracker.Name = "tsmiStockTracker";
+            this.tsmiStockTracker.Size = new System.Drawing.Size(224, 26);
+            this.tsmiStockTracker.Text = "Stock Tracker";
+            this.tsmiStockTracker.Click += new System.EventHandler(this.tsmiStockTracker_Click);
             // 
             // tsmiGrowthEngine
             // 
@@ -139,18 +156,47 @@
             this.tsmiGrowthEngine.Text = "Growth Engine";
             this.tsmiGrowthEngine.Click += new System.EventHandler(this.tsmiGrowthEngine_Click);
             // 
-            // sessionToolStripMenuItem
-            // 
-            this.sessionToolStripMenuItem.Name = "sessionToolStripMenuItem";
-            this.sessionToolStripMenuItem.Size = new System.Drawing.Size(72, 24);
-            this.sessionToolStripMenuItem.Text = "Session";
-            // 
             // tsmiRainfall
             // 
             this.tsmiRainfall.Name = "tsmiRainfall";
             this.tsmiRainfall.Size = new System.Drawing.Size(224, 26);
             this.tsmiRainfall.Text = "Rainfall Data";
             this.tsmiRainfall.Click += new System.EventHandler(this.tsmiRainfall_Click);
+            // 
+            // tsmiMediaRecovery
+            // 
+            this.tsmiMediaRecovery.Name = "tsmiMediaRecovery";
+            this.tsmiMediaRecovery.Size = new System.Drawing.Size(224, 26);
+            this.tsmiMediaRecovery.Text = "Media Recovery";
+            this.tsmiMediaRecovery.Click += new System.EventHandler(this.tsmiMediaRecovery_Click);
+            // 
+            // sessionToolStripMenuItem
+            // 
+            this.sessionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.loadSessionToolStripMenuItem,
+            this.saveSessionToolStripMenuItem,
+            this.exitSessionToolStripMenuItem});
+            this.sessionToolStripMenuItem.Name = "sessionToolStripMenuItem";
+            this.sessionToolStripMenuItem.Size = new System.Drawing.Size(72, 24);
+            this.sessionToolStripMenuItem.Text = "Session";
+            // 
+            // loadSessionToolStripMenuItem
+            // 
+            this.loadSessionToolStripMenuItem.Name = "loadSessionToolStripMenuItem";
+            this.loadSessionToolStripMenuItem.Size = new System.Drawing.Size(178, 26);
+            this.loadSessionToolStripMenuItem.Text = "Load Session";
+            // 
+            // saveSessionToolStripMenuItem
+            // 
+            this.saveSessionToolStripMenuItem.Name = "saveSessionToolStripMenuItem";
+            this.saveSessionToolStripMenuItem.Size = new System.Drawing.Size(178, 26);
+            this.saveSessionToolStripMenuItem.Text = "Save Session";
+            // 
+            // exitSessionToolStripMenuItem
+            // 
+            this.exitSessionToolStripMenuItem.Name = "exitSessionToolStripMenuItem";
+            this.exitSessionToolStripMenuItem.Size = new System.Drawing.Size(178, 26);
+            this.exitSessionToolStripMenuItem.Text = "Exit Session";
             // 
             // frmMain_Control_Hub
             // 
@@ -185,5 +231,10 @@
         private System.Windows.Forms.ToolStripMenuItem sessionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tsmiGrowthEngine;
         private System.Windows.Forms.ToolStripMenuItem tsmiRainfall;
+        private System.Windows.Forms.ToolStripMenuItem loadSessionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveSessionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitSessionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmiStockTracker;
+        private System.Windows.Forms.ToolStripMenuItem tsmiMediaRecovery;
     }
 }

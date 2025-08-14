@@ -15,7 +15,9 @@ namespace INF164_Homework_Assignment_1_Group44
         public frmMain_Control_Hub()
         {
             InitializeComponent();
+
         }
+
 
         private void tsmiGrowthEngine_Click(object sender, EventArgs e)
         {
@@ -29,6 +31,35 @@ namespace INF164_Homework_Assignment_1_Group44
             frmRainfallData rainfallData = new frmRainfallData();
             this.Hide();
             rainfallData.Show();    
+        }
+
+        private void grbModuleAccess_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tsmiStockTracker_Click(object sender, EventArgs e)
+        {
+            frmStockTrack stockTrack = new frmStockTrack();
+            this.Hide();
+            stockTrack.Show();
+        }
+
+        private void mnsMainControl_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void moduleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tsmiMediaRecovery_Click(object sender, EventArgs e)
+        {
+            MediaRecovery mediaRecovery = new MediaRecovery();
+            this.Hide();
+            mediaRecovery.Show();
         }
     }
 }
