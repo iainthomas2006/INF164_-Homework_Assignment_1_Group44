@@ -40,6 +40,7 @@
             this.txtCreateEmail = new System.Windows.Forms.TextBox();
             this.lblCreate = new System.Windows.Forms.Label();
             this.grpLogIn = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.radSignUp = new System.Windows.Forms.RadioButton();
             this.radLogin = new System.Windows.Forms.RadioButton();
             this.btnLogin = new System.Windows.Forms.Button();
@@ -50,7 +51,6 @@
             this.txtEmailLogin = new System.Windows.Forms.TextBox();
             this.lblStudentLogin = new System.Windows.Forms.Label();
             this.lblWelcome = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.grpCreateAccount.SuspendLayout();
             this.grpLogIn.SuspendLayout();
             this.SuspendLayout();
@@ -182,6 +182,16 @@
             this.grpLogIn.TabStop = false;
             this.grpLogIn.Text = "Login";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(45, 80);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(228, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // radSignUp
             // 
             this.radSignUp.AutoSize = true;
@@ -212,6 +222,7 @@
             this.btnLogin.TabIndex = 7;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnClearLogin
             // 
@@ -275,16 +286,6 @@
             this.lblWelcome.Size = new System.Drawing.Size(244, 18);
             this.lblWelcome.TabIndex = 0;
             this.lblWelcome.Text = "Welcome to NeoFit Admin Manager";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(45, 80);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(228, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmLogin
             // 

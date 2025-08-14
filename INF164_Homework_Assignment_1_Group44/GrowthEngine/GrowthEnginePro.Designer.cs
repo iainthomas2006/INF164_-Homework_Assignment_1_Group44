@@ -110,8 +110,8 @@
             131072});
             this.nudTarget.Location = new System.Drawing.Point(47, 130);
             this.nudTarget.Maximum = new decimal(new int[] {
-            999999,
-            0,
+            1316134911,
+            2328,
             0,
             0});
             this.nudTarget.Name = "nudTarget";
@@ -150,6 +150,11 @@
             // 
             this.nudBalance.Enabled = false;
             this.nudBalance.Location = new System.Drawing.Point(47, 59);
+            this.nudBalance.Maximum = new decimal(new int[] {
+            1316134911,
+            2328,
+            0,
+            0});
             this.nudBalance.Name = "nudBalance";
             this.nudBalance.Size = new System.Drawing.Size(120, 22);
             this.nudBalance.TabIndex = 1;
@@ -184,6 +189,7 @@
             this.btnCalculate.TabIndex = 2;
             this.btnCalculate.Text = "Calculate Growth";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // radCompound
             // 
@@ -206,7 +212,6 @@
             this.radFlat.TabStop = true;
             this.radFlat.Text = "Flat Growth%";
             this.radFlat.UseVisualStyleBackColor = true;
-            this.radFlat.CheckedChanged += new System.EventHandler(this.radFlat_CheckedChanged);
             // 
             // rtxtInvestment
             // 
