@@ -77,12 +77,12 @@ namespace INF164_Homework_Assignment_1_Group44
             {
                 ErrorMessage("File Could not be Loaded", "File Load Error");
             }   
-        }
+        }//Loads balance/creates new file if doesn't exist
         private void ErrorMessage(string Message, string Title)
         {
             MessageBox.Show(Message,Title, MessageBoxButtons.OK, MessageBoxIcon.Error);
             FailureText(Message);
-        }
+        }//Compiles an error message
         private void Validate(out bool Validation)//Validates values of numericupdowns
         {
             if ((Balance < TargetBalance)&&(Months > 0))
@@ -104,11 +104,11 @@ namespace INF164_Homework_Assignment_1_Group44
         private void nudTarget_ValueChanged(object sender, EventArgs e)
         {
             TargetBalance = Convert.ToDouble(nudTarget.Value);
-        }
+        }//Changes Target Balance
         private void nudMonths_ValueChanged(object sender, EventArgs e)
         {
             Months = Convert.ToDouble(nudMonths.Value);
-        }
+        }//Changes month
         private void btnCalculate_Click(object sender, EventArgs e)//Calculates growth rate if validation true
         {
             Months = Math.Round(Months,0);
@@ -159,13 +159,12 @@ namespace INF164_Homework_Assignment_1_Group44
         {
             File.AppendAllText("failure.txt", DateTime.Now.ToString("yyyy/MM/dd - HH:mm:ss ")
                 + message + "\n");
-        }
+        }//Displays error message in failure.txt
         private void BalanceFlat(ref double Currents)//calculates flat rate
         {
             Currents = ((TargetBalance - Currents)/Months)/Currents * 100;
             Math.Round(Currents,2);
         }
-
         private void btnSave_Click(object sender, EventArgs e)
         {
             bool validation = false;
@@ -179,7 +178,7 @@ namespace INF164_Homework_Assignment_1_Group44
             {
                 SaveNewBalance();
             }
-        }
+        }//Vailidates informations
         private void SaveNewBalance()
         {
             bool Found = false;
@@ -213,7 +212,7 @@ namespace INF164_Homework_Assignment_1_Group44
             frmMain_Control_Hub main_Control_Hub = new frmMain_Control_Hub();
             this.Close();
             main_Control_Hub.Show();
-        }
+        }//Saves new Balance of user
         private void BalanceCompound(ref double Currents)
         {
             Currents = (Math.Pow((TargetBalance / Currents), (1 / Months))-1)*100;
