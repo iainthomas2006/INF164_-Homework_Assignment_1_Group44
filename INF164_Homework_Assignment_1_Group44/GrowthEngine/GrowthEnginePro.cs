@@ -21,34 +21,62 @@ namespace INF164_Homework_Assignment_1_Group44
             instance = this;
         }
         string StudentEmail = frmLogin.Instance.StudentEmail;
-        StreamReader BalanceInput;
         StreamWriter BalanceOutput;
         double TargetBalance, Balance, Months;
-        string errorMessage;
+        string[] lines;
+        int endOfLine, Spaceindex;
+        string balancetemp;
         private void frmGrowthEnginePro_Load(object sender, EventArgs e)
         {
             try
             {
-                BalanceInput = new StreamReader("Balance.txt");
-               // Balance = Convert.ToDouble(BalanceInput.ReadToEnd());
-                nudBalance.Value = Convert.ToInt16(Balance);
-                nudBalance.Enabled = false;
+                bool Found = false;
+                lines = File.ReadAllLines("Balance.txt");
+                int i = 0;
+                while ((i < lines.Length) && (Found == false))
+                {
+                    if (lines[i].Contains(StudentEmail))
+                    {
+                        Found = true;
+                    }
+                    else
+                    {
+                        i++;
+                    }
+                }
+                if (Found == true)
+                {
+                    nudBalance.Enabled = false;
+                    balancetemp = lines[i];
+                    Spaceindex = balancetemp.IndexOf(" ");
+                    balancetemp = balancetemp.Substring(Spaceindex + 1);
+                    if (int.TryParse(balancetemp, out endOfLine))
+                    {
+                        Balance = endOfLine;
+                        nudBalance.Value = endOfLine;
+                    }
+                    else
+                    {
+                        ErrorMessage("Balance was invalid set value to 0", "Balance Invalid");
+                        Balance = 0;
+                        nudBalance.Value = 0;
+                    }
+
+                }
+
             }
             catch (FileNotFoundException)
             {
                 ErrorMessage("File Was not Found", "File Found Error");
-                nudBalance.Enabled = true;
-                File.Create("Balance.txt");
-               
+                nudBalance.Enabled = false;
+                BalanceOutput = new StreamWriter("Balance.txt");
+                BalanceOutput.Write("Balance for different students");
+                BalanceOutput.Close();
             }
             catch (FileLoadException)
             {
                 ErrorMessage("File Could not be Loaded", "File Load Error");
             }   
-            if (nudBalance.Value == 0)
-            {
-              nudBalance.Enabled = true;
-            }
         }
         private void ErrorMessage(string Message, string Title)
         {
@@ -155,7 +183,8 @@ namespace INF164_Homework_Assignment_1_Group44
         private void SaveNewBalance()
         {
             bool Found = false;
-            string[] lines = File.ReadAllLines("Balance.txt");
+            lines = File.ReadAllLines("Balance.txt");
+            File.Delete("Balance.txt");
             int i = 0;
             while ((i < lines.Length)&& (Found == false))
             {
@@ -172,13 +201,13 @@ namespace INF164_Homework_Assignment_1_Group44
             {
                 Array.Resize(ref lines, lines.Length+1);
                 lines[lines.Length-1] = StudentEmail + " " + Convert.ToString(Balance);
-                File.WriteAllLines("Balance.txt",lines);
+                File.AppendAllLines("Balance.txt",lines);
             }
             else
             {
                 lines[i] = "";
                 lines[i] = StudentEmail + " " + Convert.ToString(TargetBalance);
-                File.WriteAllLines("Balance.txt", lines);
+                File.AppendAllLines("Balance.txt", lines);
             }
         }
         private void BalanceCompound(ref double Currents)

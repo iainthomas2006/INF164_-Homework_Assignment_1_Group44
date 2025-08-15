@@ -16,3 +16,27 @@
 2025/08/15 - 08:33:00 Balance was 0 target set as new balance
 2025/08/15 - 08:33:06 Balance was 0 target set as new balance
 2025/08/15 - 08:33:45 Balance was 0 target set as new balance
+2025/08/15 - 08:41:57 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked
+2025/08/15 - 08:42:02 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked
+2025/08/15 - 08:42:10 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked
+2025/08/15 - 08:45:00 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked
+2025/08/15 - 08:46:09 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked
+2025/08/15 - 08:49:14 File Was not Found
+2025/08/15 - 08:50:14 File Was not Found
+2025/08/15 - 08:53:27 File Was not Found
+2025/08/15 - 08:54:02 File Was not Found
+2025/08/15 - 08:56:22 File Was not Found
+2025/08/15 - 08:56:40 File Was not Found
+2025/08/15 - 08:58:04 File Was not Found
+2025/08/15 - 08:59:45 Balance was 0 target set as new balance
+2025/08/15 - 09:00:28 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked
+2025/08/15 - 09:01:49 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked
+2025/08/15 - 09:04:31 File Was not Found
+2025/08/15 - 09:04:37 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked
+2025/08/15 - 09:05:09 Balance was 0 target set as new balance
+2025/08/15 - 09:20:26 File Was not Found
+2025/08/15 - 09:40:26 File Was not Found
+2025/08/15 - 09:40:33 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked
+2025/08/15 - 09:42:13 File Was not Found
+2025/08/15 - 09:42:40 Target balance must be above current, months should be greater than 0 and either compound or flat should be checked
+2025/08/15 - 09:51:35 Balance was 0 target set as new balance

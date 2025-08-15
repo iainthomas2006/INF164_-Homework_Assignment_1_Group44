@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace INF164_Homework_Assignment_1_Group44
 {
@@ -30,7 +31,12 @@ namespace INF164_Homework_Assignment_1_Group44
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            StudentEmail += txtEmailLogin.Text;
+            StudentEmail = txtEmailLogin.Text;
+        }
+
+        private void btnSignUp_Click(object sender, EventArgs e)
+        {
+            File.Delete("Balance.txt");
         }
     }
 }
