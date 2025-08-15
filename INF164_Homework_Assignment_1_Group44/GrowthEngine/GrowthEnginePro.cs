@@ -45,13 +45,17 @@ namespace INF164_Homework_Assignment_1_Group44
             {
                 ErrorMessage("File Could not be Loaded", "File Load Error");
             }   
+            if (nudBalance.Value == 0)
+            {
+              nudBalance.Enabled = true;
+            }
         }
         private void ErrorMessage(string Message, string Title)
         {
             MessageBox.Show(Message,Title, MessageBoxButtons.OK, MessageBoxIcon.Error);
             FailureText(Message);
         }
-        private void Validate(out bool Validation)
+        private void Validate(out bool Validation)//Validates values of numericupdowns
         {
             if ((Balance < TargetBalance)&&(Months > 0))
             {
@@ -77,8 +81,9 @@ namespace INF164_Homework_Assignment_1_Group44
         {
             Months = Convert.ToDouble(nudMonths.Value);
         }
-        private void btnCalculate_Click(object sender, EventArgs e)
+        private void btnCalculate_Click(object sender, EventArgs e)//Calculates growth rate if validation true
         {
+            Months = Math.Round(Months,0);
             bool Validation;
             Validate(out Validation);
             if (Validation == false)
@@ -88,10 +93,21 @@ namespace INF164_Homework_Assignment_1_Group44
             }
             else
             {
-                CheckCompoundFlat();
+                if (Balance == 0)
+                {
+                    Balance = TargetBalance;
+                    nudBalance.Value = Convert.ToInt32(TargetBalance);
+                    nudTarget.Value = 0;
+                    ErrorMessage("Balance was 0 target set as new balance", "Please try Again");
+                    TargetBalance = 0;
+                }
+                else
+                {
+                    CheckCompoundFlat();
+                }
             }
         }
-        private void CheckCompoundFlat ()
+        private void CheckCompoundFlat ()//checks wheter compound or flat growth rate selected
         {
             double Current = Convert.ToDouble(nudBalance.Value);
             if (radFlat.Checked == true)
@@ -105,7 +121,7 @@ namespace INF164_Homework_Assignment_1_Group44
                 WriteText(Current,"Compound");
             }
         }
-        private void WriteText(double Display,string Growth)
+        private void WriteText(double Display,string Growth)//Writes text into richtextbox
         {
             rtxtInvestment.AppendText(DateTime.Now.ToString("yyyy,MM,dd - HH:mm:ss") +": Flat Growth Calculated = "
                 + Convert.ToString(Math.Round(Display,2)) + "% per month \n");
@@ -116,7 +132,7 @@ namespace INF164_Homework_Assignment_1_Group44
             File.AppendAllText("failure.txt", DateTime.Now.ToString("yyyy/MM/dd - HH:mm:ss ")
                 + message + "\n");
         }
-        private void BalanceFlat(ref double Currents)
+        private void BalanceFlat(ref double Currents)//calculates flat rate
         {
             Currents = ((TargetBalance - Currents)/Months)/Currents * 100;
             Math.Round(Currents,2);
@@ -138,19 +154,38 @@ namespace INF164_Homework_Assignment_1_Group44
         }
         private void SaveNewBalance()
         {
+            bool Found = false;
             string[] lines = File.ReadAllLines("Balance.txt");
             int i = 0;
-            while (i < lines.Length)
+            while ((i < lines.Length)&& (Found == false))
             {
-                please help me
-
+              if (lines[i].Contains(StudentEmail))
+                {
+                    Found = true; 
+                }
+              else
+                {
+                    i++;
+                }
+            }
+            if (Found == false)
+            {
+                Array.Resize(ref lines, lines.Length+1);
+                lines[lines.Length-1] = StudentEmail + " " + Convert.ToString(Balance);
+                File.WriteAllLines("Balance.txt",lines);
+            }
+            else
+            {
+                lines[i] = "";
+                lines[i] = StudentEmail + " " + Convert.ToString(TargetBalance);
+                File.WriteAllLines("Balance.txt", lines);
             }
         }
         private void BalanceCompound(ref double Currents)
         {
             Currents = (Math.Pow((TargetBalance / Currents), (1 / Months))-1)*100;
             Math.Round((Currents / Months),2);
-        }
+        }//calculates comput rate
         private void nudBalance_ValueChanged(object sender, EventArgs e)
         {
             Balance = Convert.ToDouble(nudBalance.Value);
