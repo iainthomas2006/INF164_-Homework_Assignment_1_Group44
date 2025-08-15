@@ -36,7 +36,6 @@ namespace INF164_Homework_Assignment_1_Group44
 
         private void btnSignUp_Click(object sender, EventArgs e)
         {
-            File.Delete("Balance.txt");
         }
     }
 }

@@ -209,6 +209,10 @@ namespace INF164_Homework_Assignment_1_Group44
                 lines[i] = StudentEmail + " " + Convert.ToString(TargetBalance);
                 File.AppendAllLines("Balance.txt", lines);
             }
+            MessageBox.Show("Balance Saved Returning to Main hub");
+            frmMain_Control_Hub main_Control_Hub = new frmMain_Control_Hub();
+            this.Close();
+            main_Control_Hub.Show();
         }
         private void BalanceCompound(ref double Currents)
         {
